@@ -1,16 +1,16 @@
 # Patterns for Securing of Software Delivery
 
-This repository aims to be Catalog of Patterns For Improving the Security of Software Delivery Systems. Topics are around the Software Development Lifecycle (SDLC), DevSecOps and IT Security. 
+This repository aims to be catalog of patterns for improving the security of software delivery systems. Topics are around the Software Development Lifecycle (SDLC), DevSecOps and IT Security. 
 
-It is based on Common Weaknesses of Mitre's Common Weakness Enumeration&trade;, in particular [2024's CWE Top 25 Most Dangerous Software Weaknesses](https://cwe.mitre.org/top25/) as well as [CAPEC, the Common Attack Pattern Enumeration and Classification&trade;](https://capec.mitre.org/index.html).
+It is based on *Common Weaknesses* of Mitre's Common Weakness Enumeration&trade;, in particular [2024's CWE Top 25 Most Dangerous Software Weaknesses](https://cwe.mitre.org/top25/) as well as [CAPEC, the Common Attack Pattern Enumeration and Classification&trade;](https://capec.mitre.org/index.html).
 
 # Patterns
 
 - [**01** - Separate Continuous Integration from Continuous Delivery Pipelines](./patterns/01%20CI%20CD%20Separation.md)
-- Review and Enforce proper Access Control and Least Privilege
+- [**02** - Review and Enforce proper Access Control and Least Privilege](./patterns/02%20Enforce%20Proper%20Access%20Control%20and%20Least%20Privilege%20in%20CICD%20Pipelines.md)
 - [**03** - Consider Pull Model Deployments instead of Pushing Deployments](./patterns/03%20From%20Push%20to%20Pull%20model%20Deployment.md)
 - Secure Storage and Usage of Credentials in Pipelines
-- Validate Inputs
+- Replace shell scripts by Pipeline extensions
 - Harden Pipeline Code and Environments
 - Run Security Scans in Pipelines
 - Manage Upstream Dependencies
