@@ -35,10 +35,14 @@ Most modern build execution environments will redact injected secrets in text ou
 
 As an additional security measure, it can be helpful to introduce **Audit logs and Monitoring**. Enabling the logging of secrets retrieval events helps to provide a complete audit trail. Upon that, alerts can be configured to detect and report anomalies such as unusual access times or repeated failed attempts to retrieve secrets. 
 
-## Referenced CWEs
-- [CWE-256: Plaintext Storage of a Password](https://cwe.mitre.org/data/definitions/256.html)  
-- [CWE-312: Cleartext Storage of Sensitive Information](https://cwe.mitre.org/data/definitions/312.html)  
-- [CWE-319: Cleartext Transmission of Sensitive Information](https://cwe.mitre.org/data/definitions/319.html)  
-- [CWE-798: Use of Hard-coded Credentials](https://cwe.mitre.org/data/definitions/798.html)  
+## Referenced CWEs and CAPEC
+- [**CWE-256**: Plaintext Storage of a Password](https://cwe.mitre.org/data/definitions/256.html)  
+- [**CWE-312**: Cleartext Storage of Sensitive Information](https://cwe.mitre.org/data/definitions/312.html)  
+- [**CWE-319**: Cleartext Transmission of Sensitive Information](https://cwe.mitre.org/data/definitions/319.html)  
+- [**CWE-798**: Use of Hard-coded Credentials](https://cwe.mitre.org/data/definitions/798.html)  
+
+Related pattern from CAPEC are [**CAPEC-545**: Pull Data from System Resources](https://capec.mitre.org/data/definitions/545.html) and [**CAPEC-150**: Collect Data from Common Resource Locations](https://capec.mitre.org/data/definitions/150.html) where attackers who managed to compromise a build environment could try to collect sensitive data from logs or scripts.
+
+---
 
 By systematically implementing a secure secrets management strategy in your CI/CD pipelines, you enhance the overall security posture of your software delivery process and reduce the risk of credential compromise.
