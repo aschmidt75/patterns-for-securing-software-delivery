@@ -9,7 +9,7 @@ It is based on *Common Weaknesses* of Mitre's Common Weakness Enumeration&trade;
 - [**01** - Separate Continuous Integration from Continuous Delivery Pipelines](./patterns/01%20CI%20CD%20Separation.md)
 - [**02** - Review and Enforce proper Access Control and Least Privilege](./patterns/02%20Enforce%20Proper%20Access%20Control%20and%20Least%20Privilege%20in%20CICD%20Pipelines.md)
 - [**03** - Consider Pull Model Deployments instead of Pushing Deployments](./patterns/03%20From%20Push%20to%20Pull%20model%20Deployment.md)
-- Secure Storage and Usage of Credentials in Pipelines
+- [**04** - Secure Storage and Usage of Credentials in Pipelines](./patterns/04%20Secure%20Secrets%20Management.md)
 - Replace shell scripts by Pipeline extensions
 - Harden Pipeline Code and Environments
 - Run Security Scans in Pipelines
