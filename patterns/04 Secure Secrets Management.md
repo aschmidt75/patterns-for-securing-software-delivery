@@ -40,6 +40,7 @@ The following weaknesses are related:
 - [**CWE-312**: Cleartext Storage of Sensitive Information](https://cwe.mitre.org/data/definitions/312.html)  
 - [**CWE-319**: Cleartext Transmission of Sensitive Information](https://cwe.mitre.org/data/definitions/319.html)  
 - [**CWE-798**: Use of Hard-coded Credentials](https://cwe.mitre.org/data/definitions/798.html)  
+- [**CWE-522**: Insufficiently Protected Credentials](https://cwe.mitre.org/data/definitions/522.html)  
 
 Related pattern from CAPEC are [**CAPEC-545**: Pull Data from System Resources](https://capec.mitre.org/data/definitions/545.html) and [**CAPEC-150**: Collect Data from Common Resource Locations](https://capec.mitre.org/data/definitions/150.html) where attackers who managed to compromise a build environment could try to collect sensitive data from logs or scripts.
 

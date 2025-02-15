@@ -45,6 +45,13 @@ When a pipeline or build server actively connects to target machines to push upd
   Each environment like staging, production, etc. can enforce its own security policies, limiting deployment only to approved and validated artifacts.
 
 ## Referenced CWEs
+
+This pattern references the following items from Mitre's [CWE Top 25 Most Dangerous Software Weaknesses](https://cwe.mitre.org/top25/)
+
+- - [**CWE-287**: Improper Authentication](https://cwe.mitre.org/data/definitions/287.html)  
+
+Additionally, the following CWEs can become relevant:
+
 - [**CWE-494**: Download of Code Without Integrity Check](https://cwe.mitre.org/data/definitions/494.html)  
 - [**CWE-829**: Inclusion of Functionality from Untrusted Control Sphere](https://cwe.mitre.org/data/definiti
 ons/829.html)
