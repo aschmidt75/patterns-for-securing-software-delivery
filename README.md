@@ -21,6 +21,10 @@ It also relates to [Supply-chain Levels for Software Artifacts, or SLSA](https:/
 
 - [SDLC-related CAPEC entries](./supplementary/S01%20SDLC-related%20CAPEC.md)
 
+# Additional References
+
+- [bureado/awesome-software-supply-chain-security](https://github.com/bureado/awesome-software-supply-chain-security)
+
 # License
 
 (C)opyright 2024,2025 @aschmidt75
